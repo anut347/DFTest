@@ -1,4 +1,4 @@
-package main.java.DFTest;
+package main.java;
 
 import org.wildfly.swarm.Swarm;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
