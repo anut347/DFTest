@@ -10,9 +10,10 @@ import org.wildfly.swarm.jaxrs.*;
  *
  */
 public class App  {
-    public static void main( String[] args ) throws Exception {
-    //public static void main( String[] args ) {
-        Swarm swarm = new Swarm();
+    //public static void main( String[] args ) throws Exception {
+    public static void main( String[] args ) {
+        System.out.print("Hello World");
+        /*Swarm swarm = new Swarm();
  
         JAXRSArchive deployment = ShrinkWrap.create(JAXRSArchive.class);
         // WARArchive deployment = ShrinkWrap.create( WARArchive.class );
@@ -27,6 +28,6 @@ public class App  {
         //deployment.addAsWebInfResource(new ClassLoaderAsset("WEB-INF/template.xhtml", Main.class.getClassLoader()), "template.xhtml");        
         
         swarm.start();
-        swarm.deploy(deployment);
+        swarm.deploy(deployment);*/
     }
 }
