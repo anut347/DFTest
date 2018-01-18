@@ -1,4 +1,4 @@
-package main.java.DFTest;
+package main.java;
 
 public class Data {
 
